@@ -24,6 +24,7 @@ public class NutQuartzJobFactory implements JobFactory {
 
 	public Job newJob(TriggerFiredBundle bundle, Scheduler scheduler) throws SchedulerException {
 		try {
+
 			return ioc.get(bundle.getJobDetail().getJobClass());
 		}
 		catch (Exception e) {

@@ -147,7 +147,8 @@
 		<module>nutz-plugins-xmlentitymaker</module>
 		<module>nutz-plugins-zcron</module>
 		<module>nutz-plugins-zdoc</module>
-	</modules>
+        <module>nutz-integration-feign</module>
+    </modules>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nutzcn-snapshots</id>
